@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
-                    <span>D:\Java\KvecherinaBdd\testngnavbar.xml</span>
+                    <span>D:\Java\KvecherinaBdd\testngfull.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,7 +114,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="selenium.tests.LoginTest" class="method navigator-link" hash-for-method="assertFailLogin">assertFailLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="selenium.tests.NavbarTest" class="method navigator-link" hash-for-method="assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName">assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="selenium.tests.LoginTest" class="method navigator-link" hash-for-method="assertUserNameAndPasswordInputType">assertUserNameAndPasswordInputType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="selenium.tests.LoginTest" class="method navigator-link" hash-for-method="assertUserNameAndPasswordLabelsTexts">assertUserNameAndPasswordLabelsTexts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -134,6 +149,35 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertFailLogin">
+                  </a> <!-- assertFailLogin -->
+                  <span class="method-name">assertFailLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertUserNameAndPasswordInputType">
+                  </a> <!-- assertUserNameAndPasswordInputType -->
+                  <span class="method-name">assertUserNameAndPasswordInputType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertUserNameAndPasswordLabelsTexts">
+                  </a> <!-- assertUserNameAndPasswordLabelsTexts -->
+                  <span class="method-name">assertUserNameAndPasswordLabelsTexts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -173,14 +217,14 @@
         </div> <!-- panel All_Test_Suite -->
         <div panel-name="test-xml-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Java\KvecherinaBdd\testngnavbar.xml</span>
+            <span class="header-content">D:\Java\KvecherinaBdd\testngfull.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;D:/Java/KvecherinaBdd/src/test/java/selenium/tests/NavbarTest.java&quot; verbose=&quot;2&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NavbarTests&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;selenium.tests.NavbarTest&quot;&gt;
         &lt;methods&gt;
@@ -191,7 +235,18 @@
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- selenium.tests.NavbarTest --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- D:/Java/KvecherinaBdd/src/test/java/selenium/tests/NavbarTest.java --&gt;
+  &lt;/test&gt; &lt;!-- NavbarTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTests&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;selenium.tests.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;assertUserNameAndPasswordLabelsTexts&quot;/&gt;
+          &lt;include name=&quot;assertUserNameAndPasswordInputType&quot;/&gt;
+          &lt;include name=&quot;assertFailLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- selenium.tests.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTests --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -203,7 +258,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">D:/Java/KvecherinaBdd/src/test/java/selenium/tests/NavbarTest.java (1 class)</span>
+                <span class="test-name">NavbarTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginTests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,28 +287,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'navbarIsDisplayedAfterPageIsLoaded')
-data.setCell(0, 2, 'selenium.tests.NavbarTest')
-data.setCell(0, 3, 79);
+data.setCell(0, 1, 'assertFailLogin')
+data.setCell(0, 2, 'selenium.tests.LoginTest')
+data.setCell(0, 3, 1026);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'assertAllPerformersNavLinkIsDisplayedAndAssertText')
+data.setCell(1, 1, 'navbarIsDisplayedAfterPageIsLoaded')
 data.setCell(1, 2, 'selenium.tests.NavbarTest')
-data.setCell(1, 3, 76);
+data.setCell(1, 3, 101);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'assertAllShowsNavLinkIsDisplayedAndAssertText')
+data.setCell(2, 1, 'assertAllPerformersNavLinkIsDisplayedAndAssertText')
 data.setCell(2, 2, 'selenium.tests.NavbarTest')
-data.setCell(2, 3, 75);
+data.setCell(2, 3, 94);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName')
+data.setCell(3, 1, 'assertAllShowsNavLinkIsDisplayedAndAssertText')
 data.setCell(3, 2, 'selenium.tests.NavbarTest')
-data.setCell(3, 3, 70);
+data.setCell(3, 3, 81);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName')
+data.setCell(4, 2, 'selenium.tests.NavbarTest')
+data.setCell(4, 3, 72);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'assertUserNameAndPasswordInputType')
+data.setCell(5, 2, 'selenium.tests.LoginTest')
+data.setCell(5, 3, 46);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'assertUserNameAndPasswordLabelsTexts')
+data.setCell(6, 2, 'selenium.tests.LoginTest')
+data.setCell(6, 3, 40);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 300 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -283,47 +353,86 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">navbarIsDisplayedAfterPageIsLoaded</span>
-                <span class="method-start">2641 ms</span>
+                <span class="method-start">45095 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2721 ms</span>
+                <span class="method-start">45197 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">2849 ms</span>
+                <span class="method-start">45322 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">assertAllShowsNavLinkIsDisplayedAndAssertText</span>
-                <span class="method-start">4422 ms</span>
+                <span class="method-start">47146 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4497 ms</span>
+                <span class="method-start">47228 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">4621 ms</span>
+                <span class="method-start">47343 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">assertAllPerformersNavLinkIsDisplayedAndAssertText</span>
-                <span class="method-start">6201 ms</span>
+                <span class="method-start">48993 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6278 ms</span>
+                <span class="method-start">49087 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">6383 ms</span>
+                <span class="method-start">49233 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName</span>
-                <span class="method-start">7993 ms</span>
+                <span class="method-start">50865 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8063 ms</span>
+                <span class="method-start">50937 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assertUserNameAndPasswordLabelsTexts</span>
+                <span class="method-start">52741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assertUserNameAndPasswordInputType</span>
+                <span class="method-start">55097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">55267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assertFailLogin</span>
+                <span class="method-start">56947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57973 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
