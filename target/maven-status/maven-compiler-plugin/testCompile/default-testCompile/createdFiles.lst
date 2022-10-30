@@ -1,0 +1,6 @@
+selenium\tests\LoginTest.class
+selenium\components\LoginModal.class
+selenium\utilities\BaseClass.class
+selenium\pages\HomePage.class
+selenium\components\Navbar.class
+selenium\tests\NavbarTest.class

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="NavbarTests">
+        <classes>
+            <class name="selenium.tests.NavbarTest">
+                <methods>
+                    <include name="navbarIsDisplayedAfterPageIsLoaded"/>
+                    <include name="assertAllShowsNavLinkIsDisplayedAndAssertText"/>
+                    <include name="assertAllPerformersNavLinkIsDisplayedAndAssertText"/>
+                    <include name="assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="LoginTests">
+        <classes>
+            <class name="selenium.tests.LoginTest">
+                <methods>
+                    <include name="assertUserNameAndPasswordLabelsTexts"/>
+                    <include name="assertUserNameAndPasswordInputType"/>
+                    <include name="assertFailLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
