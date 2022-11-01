@@ -27,13 +27,9 @@ public class LoginTest {
         ChromeOptions options = new ChromeOptions();
 
         options.addArguments("--no-sandbox");
-
         options.addArguments("--disable-gpu");
-
         options.addArguments("--window-size=1936,1080");
-
         options.addArguments("--headless");
-
         driver = new ChromeDriver(options);
         home = new HomePage(driver);
         navbar = new Navbar(driver);
