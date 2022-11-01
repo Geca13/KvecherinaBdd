@@ -24,7 +24,6 @@ public class LoginTest {
     @BeforeMethod
     public void setup(){
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
 
         options.addArguments("--no-sandbox");

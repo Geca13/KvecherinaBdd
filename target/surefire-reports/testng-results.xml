@@ -2,96 +2,96 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-30T13:44:59 EDT" name="All Test Suite" finished-at="2022-10-30T13:45:14 EDT" duration-ms="15450">
+  <suite started-at="2022-10-30T17:43:23 EDT" name="All Test Suite" finished-at="2022-10-30T17:43:36 EDT" duration-ms="13056">
     <groups>
     </groups>
-    <test started-at="2022-10-30T13:44:59 EDT" name="NavbarTests" finished-at="2022-10-30T13:45:08 EDT" duration-ms="8900">
+    <test started-at="2022-10-30T17:43:23 EDT" name="NavbarTests" finished-at="2022-10-30T17:43:30 EDT" duration-ms="7336">
       <class name="selenium.tests.NavbarTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:44:59 EDT" name="setup" finished-at="2022-10-30T13:45:02 EDT" duration-ms="2782" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:23 EDT" name="setup" finished-at="2022-10-30T17:43:26 EDT" duration-ms="2537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="navbarIsDisplayedAfterPageIsLoaded()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:02 EDT" name="navbarIsDisplayedAfterPageIsLoaded" finished-at="2022-10-30T13:45:02 EDT" duration-ms="86" status="PASS">
+        <test-method signature="navbarIsDisplayedAfterPageIsLoaded()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:26 EDT" name="navbarIsDisplayedAfterPageIsLoaded" finished-at="2022-10-30T17:43:26 EDT" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navbarIsDisplayedAfterPageIsLoaded -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:02 EDT" name="tearDown" finished-at="2022-10-30T13:45:02 EDT" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:26 EDT" name="tearDown" finished-at="2022-10-30T17:43:26 EDT" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:02 EDT" name="setup" finished-at="2022-10-30T13:45:04 EDT" duration-ms="1590" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:26 EDT" name="setup" finished-at="2022-10-30T17:43:27 EDT" duration-ms="1407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="assertAllShowsNavLinkIsDisplayedAndAssertText()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:04 EDT" name="assertAllShowsNavLinkIsDisplayedAndAssertText" finished-at="2022-10-30T13:45:04 EDT" duration-ms="64" status="PASS">
+        <test-method signature="assertAllShowsNavLinkIsDisplayedAndAssertText()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:27 EDT" name="assertAllShowsNavLinkIsDisplayedAndAssertText" finished-at="2022-10-30T17:43:27 EDT" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertAllShowsNavLinkIsDisplayedAndAssertText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:04 EDT" name="tearDown" finished-at="2022-10-30T13:45:04 EDT" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:27 EDT" name="tearDown" finished-at="2022-10-30T17:43:27 EDT" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:04 EDT" name="setup" finished-at="2022-10-30T13:45:05 EDT" duration-ms="1588" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:27 EDT" name="setup" finished-at="2022-10-30T17:43:29 EDT" duration-ms="1391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="assertAllPerformersNavLinkIsDisplayedAndAssertText()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:05 EDT" name="assertAllPerformersNavLinkIsDisplayedAndAssertText" finished-at="2022-10-30T13:45:05 EDT" duration-ms="72" status="PASS">
+        <test-method signature="assertAllPerformersNavLinkIsDisplayedAndAssertText()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:29 EDT" name="assertAllPerformersNavLinkIsDisplayedAndAssertText" finished-at="2022-10-30T17:43:29 EDT" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertAllPerformersNavLinkIsDisplayedAndAssertText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:05 EDT" name="tearDown" finished-at="2022-10-30T13:45:05 EDT" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:29 EDT" name="tearDown" finished-at="2022-10-30T17:43:29 EDT" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:05 EDT" name="setup" finished-at="2022-10-30T13:45:08 EDT" duration-ms="2123" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:29 EDT" name="setup" finished-at="2022-10-30T17:43:30 EDT" duration-ms="1396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:08 EDT" name="assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName" finished-at="2022-10-30T13:45:08 EDT" duration-ms="72" status="PASS">
+        <test-method signature="assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:30 EDT" name="assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName" finished-at="2022-10-30T17:43:30 EDT" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertLoginNavLinkIsDisplayedAndAssertLoginIconClassName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T13:45:08 EDT" name="tearDown" finished-at="2022-10-30T13:45:08 EDT" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.NavbarTest@6babf3bf]" started-at="2022-10-30T17:43:30 EDT" name="tearDown" finished-at="2022-10-30T17:43:30 EDT" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- selenium.tests.NavbarTest -->
     </test> <!-- NavbarTests -->
-    <test started-at="2022-10-30T13:45:08 EDT" name="LoginTests" finished-at="2022-10-30T13:45:14 EDT" duration-ms="6536">
+    <test started-at="2022-10-30T17:43:31 EDT" name="LoginTests" finished-at="2022-10-30T17:43:36 EDT" duration-ms="5709">
       <class name="selenium.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T13:45:08 EDT" name="setup" finished-at="2022-10-30T13:45:10 EDT" duration-ms="1806" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T17:43:31 EDT" name="setup" finished-at="2022-10-30T17:43:32 EDT" duration-ms="1587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="assertUserNameAndPasswordLabelsTexts()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T13:45:10 EDT" name="assertUserNameAndPasswordLabelsTexts" finished-at="2022-10-30T13:45:10 EDT" duration-ms="40" status="PASS">
+        <test-method signature="assertUserNameAndPasswordLabelsTexts()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T17:43:32 EDT" name="assertUserNameAndPasswordLabelsTexts" finished-at="2022-10-30T17:43:32 EDT" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertUserNameAndPasswordLabelsTexts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T13:45:10 EDT" name="tearDown" finished-at="2022-10-30T13:45:10 EDT" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T17:43:32 EDT" name="tearDown" finished-at="2022-10-30T17:43:32 EDT" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T13:45:10 EDT" name="setup" finished-at="2022-10-30T13:45:12 EDT" duration-ms="1776" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T17:43:32 EDT" name="setup" finished-at="2022-10-30T17:43:34 EDT" duration-ms="1535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="assertUserNameAndPasswordInputType()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T13:45:12 EDT" name="assertUserNameAndPasswordInputType" finished-at="2022-10-30T13:45:12 EDT" duration-ms="43" status="PASS">
+        <test-method signature="assertUserNameAndPasswordInputType()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T17:43:34 EDT" name="assertUserNameAndPasswordInputType" finished-at="2022-10-30T17:43:34 EDT" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertUserNameAndPasswordInputType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T13:45:12 EDT" name="tearDown" finished-at="2022-10-30T13:45:12 EDT" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T17:43:34 EDT" name="tearDown" finished-at="2022-10-30T17:43:34 EDT" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T13:45:12 EDT" name="setup" finished-at="2022-10-30T13:45:13 EDT" duration-ms="1681" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T17:43:34 EDT" name="setup" finished-at="2022-10-30T17:43:35 EDT" duration-ms="1534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="assertFailLogin()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T13:45:13 EDT" name="assertFailLogin" finished-at="2022-10-30T13:45:14 EDT" duration-ms="818" status="PASS">
+        <test-method signature="assertFailLogin()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T17:43:35 EDT" name="assertFailLogin" finished-at="2022-10-30T17:43:36 EDT" duration-ms="771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertFailLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T13:45:14 EDT" name="tearDown" finished-at="2022-10-30T13:45:14 EDT" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.tests.LoginTest@3ee37e5a]" started-at="2022-10-30T17:43:36 EDT" name="tearDown" finished-at="2022-10-30T17:43:36 EDT" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
